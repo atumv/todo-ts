@@ -33,11 +33,10 @@ const App = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>): void => {
     e.preventDefault();
-    const add = e.currentTarget.elements.namedItem("add") as HTMLInputElement;
 
-    const inputValue = add.value.trim();
+    const inputValue = e.currentTarget.add.value.trim();
     if (inputValue) addTodo(inputValue);
-    add.value = "";
+    e.currentTarget.add.value = "";
   };
 
   return (
