@@ -1,4 +1,4 @@
-# React + TypeScript Todo App
+# React + TypeScript To-Do app.
 
 ## To run:
 
