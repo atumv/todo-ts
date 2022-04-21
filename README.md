@@ -1,5 +1,7 @@
 # React + TypeScript To-Do app.
 
+![todo](public/example.gif)
+
 ## To run:
 
 ```bash
